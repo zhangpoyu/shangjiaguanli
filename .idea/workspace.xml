@@ -1,0 +1,1786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="yuhzuo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a838f8f-44c1-4516-a740-1c6f9ec6e567" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YuZhuoEducation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/DingdanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/DingdanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/GouwucheMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/GouwucheMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/LeixingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/LeixingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/PingjiaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/PingjiaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/ShangjiaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/ShangjiaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/ShangpingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/ShangpingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/YonghuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/dao/YonghuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/AdminExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/Dingdan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/DingdanExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/Gouwuche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/GouwucheExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/Leixing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/LeixingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/Pingjia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/PingjiaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/Shangjia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/ShangjiaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/Shangping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/ShangpingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/Yonghu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/entity/YonghuExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/front/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/front/DingdanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/front/GouwucheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/front/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/front/LeixingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/front/PingjiaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/front/ShangjiaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/front/ShangpingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/front/YonghuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/front/loginAndRegistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mypro/util/PageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring-common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/DingdanMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/DingdanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/GouwucheMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/GouwucheMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/LeixingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/LeixingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/PingjiaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/PingjiaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/ShangjiaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/ShangjiaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/ShangpingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/ShangpingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/YonghuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/dao/YonghuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/AdminExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/AdminExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/AdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/AdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/Dingdan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/DingdanExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/DingdanExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/DingdanExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/DingdanExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/Gouwuche.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/GouwucheExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/GouwucheExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/GouwucheExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/GouwucheExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/Leixing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/LeixingExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/LeixingExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/LeixingExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/LeixingExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/Pingjia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/PingjiaExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/PingjiaExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/PingjiaExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/PingjiaExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/Shangjia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/ShangjiaExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/ShangjiaExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/ShangjiaExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/ShangjiaExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/Shangping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/ShangpingExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/ShangpingExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/ShangpingExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/ShangpingExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/Yonghu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/YonghuExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/YonghuExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/YonghuExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/entity/YonghuExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/front/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/front/DingdanController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/front/GouwucheController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/front/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/front/LeixingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/front/PingjiaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/front/ShangjiaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/front/ShangpingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/front/YonghuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/front/loginAndRegistController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/org/mypro/util/PageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/spring-common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/aspectjweaver-1.6.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-lang3-3.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/fastjson-1.1.41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javaee-api-7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.mail-1.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/log4j-1.2.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mybatis-3.2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.20-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/slf4j-api-1.6.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/slf4j-nop-1.6.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-aop-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-beans-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-context-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-context-support-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-core-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-expression-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-jdbc-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-oxm-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-test-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-tx-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-web-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-webmvc-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/adminchakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/adminguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/adminindex.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/dingdanchakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/dingdanguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/gouwuchechakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/gouwucheguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/leixingchakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/leixingguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/login2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/pingjiachakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/pingjiaguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/qtmenu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/shangjiachakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/shangjiaguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/shangjiaindex.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/shangjiashangpingguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/shangjiatianjiashangping.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/shangjiaxiugaishangping.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/shangpingchakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/shangpingguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/shangpingxiangqing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/sousuoshangjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/sousuoshangping.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/tianjiaadmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/tianjiadingdan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/tianjiagouwuche.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/tianjialeixing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/tianjiapingjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/tianjiashangjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/tianjiashangping.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/tianjiayonghu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/xiugaiadmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/xiugaidingdan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/xiugaigouwuche.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/xiugaileixing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/xiugaipingjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/xiugaishangjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/xiugaishangping.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/xiugaiyonghu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/yonghuchakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/yonghudingdanguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/yonghugouwucheguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/yonghuguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/yonghuindex.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/yonghupingjiaguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/yonghutianjiadingdan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/yonghutianjiagouwuche.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/yonghutianjiapingjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/yonghuxiugaidingdan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/yonghuxiugaigouwuche.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/yonghuxiugaipingjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/css/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/css/ionicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/css/jquery.easy-pie-chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/css/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/css/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/css/weather-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/fontawesome-webfont3e6e.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/fontawesome-webfont3e6e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/fontawesome-webfont3e6e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/fontawesome-webfont3e6e.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/fontawesome-webfont3e6e.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/weathericons-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/weathericons-regular-webfont.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/weathericons-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/weathericons-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/weathericons-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/fonts/weathericons-regular-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/01_150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/01_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/01_800x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/32px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/about-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/flag1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/flag2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/flag4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/flag5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/product_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/product_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/product_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/product_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/product_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/product_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/product_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/product_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/radio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/sidebar_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/small-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/user3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/user4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/user5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/images/white-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/accounting.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/calendar-basic-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/calendar-external-events-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/calendar-list-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/chartjs-init-alt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/chartjs-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/custom-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/easy-pie-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/echarts/echarts-all-3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/echarts/init-echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/flot-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/flot-chart/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/flot-chart/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/flot-chart/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/flot-chart/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/flot-chart/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/flot-chart/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/flot-chart/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index/morris-chart/morris-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index/morris-chart/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index/morris-chart/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index/morris-chart/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index/vmap-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/chartjs-init-alt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/chartjs-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/flot-chart/flot-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/flot-chart/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/flot-chart/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/flot-chart/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/flot-chart/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/flot-chart/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/flot-chart/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/flot-chart/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index2/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index3/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index3/chartjs-init-alt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index3/echarts-all-3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index3/flot-chart/flot-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index3/flot-chart/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index3/flot-chart/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index3/flot-chart/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index3/flot-chart/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index3/flot-chart/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index3/flot-chart/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index3/flot-chart/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/index3/init-echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery-steps/form-wizard-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery-steps/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery-steps/jquery.steps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery-steps/jquery.stepy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery-validate-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery.dcjqaccordion.2.7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery.easy-pie-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jquery.sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/jstree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/morris-chart/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/morris-chart/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/morris-chart/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/morris-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/sparkline-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/underscore-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/js/vmap-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/login/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/login/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/login/js/vector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/colors/color-schemer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/colors/color-schemer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/css/plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/about-special-menu-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/apple-touch-icon_114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/apple-touch-icon_144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/apple-touch-icon_72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/author/author-main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/author/comment-one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/author/comment-two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/award.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/bread.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/card/card-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/card/card-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/card/card-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/card/card-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/card/card-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/chefs/image-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/chefs/image-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/customer/customer-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/error-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/error-content.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/event/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/event/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/footer-bottom-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/footer-pattern.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/dining/1 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/dining/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/dining/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/dining/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/dining/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/dining/Untitled-21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/home/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/home/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/home/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/home/img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/home/img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/home/img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/home/img-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/home/img-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-gallery-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-gallery-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-gallery-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-gallery-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-gallery-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-gallery-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-gallery-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-gallery-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-gallery-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-gallery-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-gallery-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/img-gallery-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/special/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/special/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/special/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/gallery/special/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/head-chip-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/head-chip-sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/map-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/item-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-bg-four.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-bg-one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-bg-three.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-bg-two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-item-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-item-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-item-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-item-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-item-bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-title-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-title-bg-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-title-bg-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-title-bg-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-title-bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-title-bg-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-title-bg-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-title-bg-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-title-bg-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-title-bg-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-title-bg-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-title-bg-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-two-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-two-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-two-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-two-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-two-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-two-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-two-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/menu/menu-two-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/message-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/pizza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/post/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/post/thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/post/thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/post/thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/post/thumb-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/post/thumb-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/post/thumb-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/post/thumb-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/post/thumb-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/post/thumb-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/rooms/room-gallery/thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/rooms/room-gallery/thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/rooms/room-gallery/thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/rooms/room-gallery/thumb-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/rooms/room-single.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/select-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/slide-bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/slider/slider-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/slider/slider-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/images/special-food-pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/js/livekitchen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/js/vendor/jQuery-Migrate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/js/vendor/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/js/vendor/modernizr-2.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/elements/_elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/elements/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/elements/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/forms/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/forms/_fields.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/forms/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/layout/_footer-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/layout/_heading-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/layout/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/layout/_layout_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/layout/_main-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/layout/_sidebar-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/layout/_welcome-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/layout/_widget-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/media/_captions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/media/_galleries.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/media/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/mixins/_mixins-master.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/modules/_accessibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/modules/_alignments.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/navigation/_links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/navigation/_menus.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/navigation/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/navigation/_navigation_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/navigation/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/site/_site.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/site/_site_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/site/others/_404.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/site/others/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/site/others/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/site/primary/_comments.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/site/primary/_posts-and-pages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/site/secondary/_author-slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/site/secondary/_widgets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/typography/_copy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/typography/_headings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/typography/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/variables-site/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/variables-site/_option.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/variables-site/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/sass/variables-site/_variables-site.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/qianduan/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resource/zhifu/zhifu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/dao/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/dao/DingdanMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/dao/GouwucheMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/dao/LeixingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/dao/PingjiaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/dao/ShangjiaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/dao/ShangpingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/dao/YonghuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/AdminExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/AdminExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/AdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/AdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/Dingdan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/DingdanExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/DingdanExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/DingdanExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/DingdanExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/Gouwuche.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/GouwucheExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/GouwucheExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/GouwucheExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/GouwucheExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/Leixing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/LeixingExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/LeixingExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/LeixingExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/LeixingExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/Pingjia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/PingjiaExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/PingjiaExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/PingjiaExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/PingjiaExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/Shangjia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/ShangjiaExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/ShangjiaExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/ShangjiaExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/ShangjiaExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/Shangping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/ShangpingExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/ShangpingExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/ShangpingExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/ShangpingExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/Yonghu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/YonghuExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/YonghuExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/YonghuExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/entity/YonghuExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/front/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/front/DingdanController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/front/GouwucheController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/front/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/front/LeixingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/front/PingjiaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/front/ShangjiaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/front/ShangpingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/front/YonghuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/front/loginAndRegistController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/mypro/util/PageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/DingdanMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/DingdanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/GouwucheMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/GouwucheMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/LeixingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/LeixingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/PingjiaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/PingjiaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/ShangjiaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/ShangjiaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/ShangpingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/ShangpingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/YonghuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/dao/YonghuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/AdminExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/AdminExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/AdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/AdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/Dingdan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/DingdanExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/DingdanExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/DingdanExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/DingdanExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/Gouwuche.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/GouwucheExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/GouwucheExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/GouwucheExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/GouwucheExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/Leixing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/LeixingExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/LeixingExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/LeixingExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/LeixingExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/Pingjia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/PingjiaExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/PingjiaExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/PingjiaExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/PingjiaExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/Shangjia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/ShangjiaExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/ShangjiaExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/ShangjiaExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/ShangjiaExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/Shangping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/ShangpingExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/ShangpingExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/ShangpingExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/ShangpingExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/Yonghu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/YonghuExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/YonghuExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/YonghuExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/entity/YonghuExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/front/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/front/DingdanController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/front/GouwucheController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/front/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/front/LeixingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/front/PingjiaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/front/ShangjiaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/front/ShangpingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/front/YonghuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/front/loginAndRegistController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/org/mypro/util/PageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/spring-common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/aspectjweaver-1.6.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/commons-lang3-3.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/commons-lang3-3.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/fastjson-1.1.41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/geronimo-jms_1.1_spec-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/javaee-api-7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/javax.mail-1.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/log4j-1.2.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/mybatis-3.2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/mybatis-3.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/mysql-connector-java-5.1.20-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/slf4j-api-1.6.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/slf4j-nop-1.6.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-aop-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-aop-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-beans-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-beans-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-context-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-context-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-context-support-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-core-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-core-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-expression-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-expression-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-jcl-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-jdbc-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-oxm-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-test-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-tx-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-web-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-web-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/lib/spring-webmvc-4.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/adminchakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/adminguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/adminindex.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/dingdanchakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/dingdanguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/gouwuchechakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/gouwucheguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/leixingchakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/leixingguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/login2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/pingjiachakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/pingjiaguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/qtmenu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/shangjiachakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/shangjiaguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/shangjiaindex.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/shangjiashangpingguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/shangjiatianjiashangping.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/shangjiaxiugaishangping.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/shangpingchakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/shangpingguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/shangpingxiangqing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/sousuoshangjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/sousuoshangping.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/tianjiaadmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/tianjiadingdan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/tianjiagouwuche.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/tianjialeixing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/tianjiapingjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/tianjiashangjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/tianjiashangping.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/tianjiayonghu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/xiugaiadmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/xiugaidingdan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/xiugaigouwuche.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/xiugaileixing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/xiugaipingjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/xiugaishangjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/xiugaishangping.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/xiugaiyonghu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/yonghuchakan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/yonghudingdanguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/yonghugouwucheguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/yonghuguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/yonghuindex.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/yonghupingjiaguanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/yonghutianjiadingdan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/yonghutianjiagouwuche.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/yonghutianjiapingjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/yonghuxiugaidingdan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/yonghuxiugaigouwuche.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/pages/yonghuxiugaipingjia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/css/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/css/ionicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/css/jquery.easy-pie-chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/css/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/css/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/css/weather-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/fontawesome-webfont3e6e.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/fontawesome-webfont3e6e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/fontawesome-webfont3e6e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/fontawesome-webfont3e6e.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/fontawesome-webfont3e6e.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/weathericons-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/weathericons-regular-webfont.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/weathericons-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/weathericons-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/weathericons-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/fonts/weathericons-regular-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/01_150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/01_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/01_800x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/32px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/about-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/flag1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/flag2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/flag4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/flag5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/product_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/product_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/product_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/product_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/product_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/product_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/product_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/product_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/radio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/sidebar_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/small-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/user3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/user4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/user5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/images/white-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/accounting.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/calendar-basic-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/calendar-external-events-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/calendar-list-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/chartjs-init-alt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/chartjs-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/custom-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/easy-pie-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/echarts/echarts-all-3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/echarts/init-echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/flot-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/flot-chart/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/flot-chart/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/flot-chart/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/flot-chart/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/flot-chart/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/flot-chart/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/flot-chart/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index/morris-chart/morris-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index/morris-chart/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index/morris-chart/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index/morris-chart/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index/vmap-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/chartjs-init-alt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/chartjs-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/flot-chart/flot-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/flot-chart/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/flot-chart/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/flot-chart/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/flot-chart/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/flot-chart/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/flot-chart/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/flot-chart/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index2/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index3/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index3/chartjs-init-alt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index3/echarts-all-3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index3/flot-chart/flot-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index3/flot-chart/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index3/flot-chart/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index3/flot-chart/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index3/flot-chart/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index3/flot-chart/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index3/flot-chart/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index3/flot-chart/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/index3/init-echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery-steps/form-wizard-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery-steps/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery-steps/jquery.steps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery-steps/jquery.stepy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery-validate-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery.dcjqaccordion.2.7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery.easy-pie-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jquery.sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/jstree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/morris-chart/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/morris-chart/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/morris-chart/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/morris-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/sparkline-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/underscore-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/assets/js/vmap-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/login/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/login/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/login/js/vector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/colors/color-schemer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/colors/color-schemer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/css/plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/about-special-menu-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/apple-touch-icon_114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/apple-touch-icon_144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/apple-touch-icon_72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/author/author-main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/author/comment-one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/author/comment-two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/award.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/bread.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/card/card-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/card/card-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/card/card-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/card/card-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/card/card-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/chefs/image-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/chefs/image-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/customer/customer-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/error-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/error-content.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/event/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/event/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/footer-bottom-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/footer-pattern.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/dining/1 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/dining/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/dining/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/dining/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/dining/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/dining/Untitled-21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/home/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/home/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/home/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/home/img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/home/img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/home/img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/home/img-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/home/img-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-gallery-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-gallery-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-gallery-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-gallery-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-gallery-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-gallery-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-gallery-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-gallery-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-gallery-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-gallery-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-gallery-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/img-gallery-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/special/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/special/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/special/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/gallery/special/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/head-chip-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/head-chip-sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/map-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/item-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-bg-four.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-bg-one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-bg-three.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-bg-two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-item-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-item-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-item-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-item-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-item-bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-title-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-title-bg-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-title-bg-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-title-bg-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-title-bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-title-bg-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-title-bg-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-title-bg-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-title-bg-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-title-bg-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-title-bg-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-title-bg-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-two-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-two-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-two-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-two-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-two-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-two-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-two-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/menu/menu-two-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/message-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/pizza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/post/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/post/thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/post/thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/post/thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/post/thumb-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/post/thumb-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/post/thumb-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/post/thumb-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/post/thumb-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/post/thumb-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/rooms/room-gallery/thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/rooms/room-gallery/thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/rooms/room-gallery/thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/rooms/room-gallery/thumb-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/rooms/room-single.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/select-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/slide-bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/slider/slider-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/slider/slider-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/images/special-food-pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/js/livekitchen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/js/vendor/jQuery-Migrate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/js/vendor/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/js/vendor/modernizr-2.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/elements/_elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/elements/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/elements/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/forms/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/forms/_fields.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/forms/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/layout/_footer-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/layout/_heading-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/layout/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/layout/_layout_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/layout/_main-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/layout/_sidebar-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/layout/_welcome-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/layout/_widget-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/media/_captions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/media/_galleries.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/media/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/mixins/_mixins-master.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/modules/_accessibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/modules/_alignments.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/navigation/_links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/navigation/_menus.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/navigation/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/navigation/_navigation_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/navigation/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/site/_site.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/site/_site_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/site/others/_404.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/site/others/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/site/others/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/site/primary/_comments.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/site/primary/_posts-and-pages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/site/secondary/_author-slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/site/secondary/_widgets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/typography/_copy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/typography/_headings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/typography/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/variables-site/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/variables-site/_option.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/variables-site/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/sass/variables-site/_variables-site.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/qianduan/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/yuhzuo/resource/zhifu/zhifu.png" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/Maven" />
+        <option name="userSettingsFile" value="D:\Program Files\Maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="excludeTargetFolder" value="false" />
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8.0" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-185" />
+    <option name="y" value="45" />
+    <option name="width" value="1400" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="YuZhuoEducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="D:/1/AndroidSDK" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="yuhzuo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_YuZhuoEducation" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56554" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="YuZhuoEducation:war exploded" />
+          <artifact name="yuhzuo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Default_(Template)_Project" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56554" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56555" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a838f8f-44c1-4516-a740-1c6f9ec6e567" name="Default Changelist" comment="" />
+      <created>1561160753768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561160753768</updated>
+      <workItem from="1561160756926" duration="2534000" />
+      <workItem from="1561258632542" duration="1962000" />
+      <workItem from="1561266089090" duration="1315000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5811000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23592493" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4837341" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="JSF" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="CDI" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="Nativescript Palette" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javaee-api-7.0.jar!/javax/enterprise/context/ConversationScoped.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javaee-api-7.0.jar!/javax/enterprise/context/ApplicationScoped.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#561#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javaee-api-7.0.jar!/javax/batch/api/BatchProperty.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javaee-api-7.0.jar!/javax/enterprise/inject/Decorated.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javaee-api-7.0.jar!/javax/enterprise/context/Destroyed.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-690">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/adminchakan.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/dao/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/dao/DingdanMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/entity/AdminExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/entity/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/entity/ShangjiaExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/front/DingdanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/front/GouwucheController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/front/LeixingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/front/ShangpingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/front/YonghuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/front/ShangjiaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="170" column="27" selection-start-line="170" selection-start-column="27" selection-end-line="170" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/util/PageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/front/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/mypro/front/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>@types/config</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_171</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>yuhzuo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Python 2.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
